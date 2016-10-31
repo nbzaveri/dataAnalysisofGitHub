@@ -4,7 +4,7 @@ import glob
 import time
 
 startTime = time.time()
-allUserFiles = glob.glob("/home/zyro-laptop/Documents/Hadoop/GitHubAnalysis/development/users/user_gituser_*.txt")
+allUserFiles = glob.glob("<dir_path>/user_gituser_*.txt")
 delimiterText='|@|@|'
 noRecord='NRFEnd'
 for userFile in allUserFiles:
